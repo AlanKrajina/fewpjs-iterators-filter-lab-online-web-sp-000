@@ -7,3 +7,7 @@ function findMatching (drivers,string) {
 function fuzzyMatch (drivers,string) {
   return drivers.filter(driver=> string.charAt(0) === driver.charAt(0))
 }
+
+function matchName (drivers,string) {
+  return drivers.filter(driver=> string.charAt(0) === driver.charAt(0))
+}
